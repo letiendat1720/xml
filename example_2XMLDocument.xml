@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT namespace="http://wwww.fpt-aptech.com/customer">
+<BookOrder OrderNo="12345">
+    <OrderDate>14/05/2019</OrderDate>
+    <CUSTOMER>
+        <Title>Mr.</Title>
+        <FIRSTNAME>Graeme</FIRSTNAME>
+        <LASTNAME>Macolm</LASTNAME>
+    </CUSTOMER>
+    <Book>
+        <Title>Treasure Island</Title>
+        <Author>Robert Louis Stevenson</Author>
+    </Book>
+    <Book>
+        <Title>mybook</Title>
+        <Author namespace="http://www.superduperbigco.com/customer sevice"> </Author>
+    </Book>
+</BookOrder>
+</DOCUMENT>
