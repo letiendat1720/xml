@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!DOCTYPE BOOK System "Book.dtd">
+<BOOK>
+    <OPENER>
+        <TITLE_TEXT>
+            All about me
+        </TITLE_TEXT>
+    </OPENER>
+    <PART ID="PC1">
+        <HEADER>Welcom To My Book</HEADER>
+        <CHAPTER>
+            <CHAPTER_NUMBER>CHAPTER 1</CHAPTER_NUMBER>
+            <CHAPTER_NEXT>
+                <p>&GLAD;</p>
+                <p>There's so much to say !</p>
+                <p>Where shuold we start?</p>
+                <p>How about more me ?</p>
+            </CHAPTER_NEXT>
+        </CHAPTER>
+    </PART>
+</BOOK>
+
+<!ELEMNT p (#PCDATA)>
+<!ELEMNT BOOK (OPENER, SUBTITLE?, INTRODUCTION?, (SECTION | PART)+)>
+<!ELEMNT OPENER (TITLE_TEXT)*>
+<!ELEMNT TITLE_TEXT (#PCDATA)>
+<!ELEMNT SUBTITLE (#PCDATA)>
+<!ELEMNT INTRODUCTION (HEADER, P+)+>
+<!ELEMNT PART (HEADER, CHAPTER+)>
+<!ELEMNT SECTION ( HEADER, P+)>
+<!ELEMNT HEADER (#PCDATA)>
+<!ELEMNT CHAPTER (CHAPTER_NUMBE, CHAPTER_TEXT)>
+<!ELEMNT CHAPTER_NUMBER (#PCDATA)>
+<!ELEMNT CHAPTER_TEXT (P)+>
+<!ATLIST PART ID CDDATA #REQUIRED>
+<!ENTITY GALD "Glad you want to hear about me.">

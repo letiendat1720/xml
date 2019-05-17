@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FPTAptech>
+    <Student sex="Female">
+        <name>
+            <FIRST_NAME>Le</FIRST_NAME>
+            <LAST_NAME>Dat</LAST_NAME>
+        </name>
+        <age>
+            19
+        </age>
+    </Student>
+    <Student sex="Female">
+        <name>
+            <FIRST_NAME>Tran</FIRST_NAME>
+            <LAST_NAME>Hung</LAST_NAME>
+        </name>
+        <age>
+            20
+        </age>
+    </Student>
+        <Student sex="Female">
+        <name>
+            <FIRST_NAME>Nguyen</FIRST_NAME>
+            <LAST_NAME>Thuyen</LAST_NAME>
+        </name>
+        <age>
+            24
+        </age>
+        </Student>
+</FPTAptech>
